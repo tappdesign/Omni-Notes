@@ -181,7 +181,7 @@ public class ListFragment extends BaseFragment implements OnViewTouchedListener,
     super.onCreate(savedInstanceState);
     mFragment = this;
     setHasOptionsMenu(true);
-    setRetainInstance(false);
+    setRetainInstance(true);
     EventBus.getDefault().register(this, 1);
   }
 
